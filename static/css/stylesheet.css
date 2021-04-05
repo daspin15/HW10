@@ -15,4 +15,17 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 10%;
-  }
+}
+
+.content {
+    flow-into: yourcontent;
+    -webkit-flow-into: yourcontent;
+}
+  
+.myregion {
+    flow-from: yourcontent;
+    -webkit-flow-from: yourcontent;
+  
+    float: left;
+    width: 100px;
+}
